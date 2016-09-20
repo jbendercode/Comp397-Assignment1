@@ -1,0 +1,19 @@
+{
+  "name": "COMP397_BoilerPlate",
+  "authors": [
+    "Josh Bender <jbendercodee@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Scripts/lib",
+    "test",
+    "tests",
+    ".c9"
+  ]
+}
