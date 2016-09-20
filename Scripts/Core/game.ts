@@ -11,11 +11,14 @@ var scene: number;
 // Game scenes
 var menuScene : scenes.Menu;
 var gameScene : scenes.Game;
+var gameOverScene: scenes.GameOver;
 
 // Preload Assets required
 var assetData:objects.Asset[] = [
     {id: "Start", src:"../../Assets/images/Start.png"}, 
-    {id: "Back", src:"../../Assets/images/Back.png"}
+    {id: "Back", src:"../../Assets/images/Back.png"},
+    {id: "GameOverBG", src:"../../Assets/images/GameOverBG.jpg"},
+    {id: "GameOverBtn", src:"../../Assets/images/GameOver.png"}
 ];
 
 function preload() {
@@ -69,6 +72,11 @@ function changeScene() : void {
             stage.removeAllChildren();
             currentScene = new scenes.Game();
             console.log("Starting GAME scene");
+            break;
+        case config.Scene.GAMEOVER :
+            stage.removeAllChildren();
+            currentScene = new scenes.GameOver();
+            console.log("Starting GAMEOVER scene");
             break;
     }
     

@@ -8,10 +8,13 @@ var scene;
 // Game scenes
 var menuScene;
 var gameScene;
+var gameOverScene;
 // Preload Assets required
 var assetData = [
     { id: "Start", src: "../../Assets/images/Start.png" },
-    { id: "Back", src: "../../Assets/images/Back.png" }
+    { id: "Back", src: "../../Assets/images/Back.png" },
+    { id: "GameOverBG", src: "../../Assets/images/GameOverBG.jpg" },
+    { id: "GameOverBtn", src: "../../Assets/images/GameOver.png" }
 ];
 function preload() {
     // Create a queue for assets being loaded
@@ -54,6 +57,11 @@ function changeScene() {
             stage.removeAllChildren();
             currentScene = new scenes.Game();
             console.log("Starting GAME scene");
+            break;
+        case config.Scene.GAMEOVER:
+            stage.removeAllChildren();
+            currentScene = new scenes.GameOver();
+            console.log("Starting GAMEOVER scene");
             break;
     }
 }
