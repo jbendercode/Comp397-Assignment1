@@ -4,7 +4,7 @@
 */
 
 module scenes {
-    export class Game extends objects.Scene {
+    export class Light extends objects.Scene {
 
         // PRIVATE VARIABLES
         private _sceneDescriptionLabel : createjs.Text;
@@ -25,15 +25,14 @@ module scenes {
         // PUBLIC FUNCTIONS
         public start() : void {
             // Assign values to the scene labels
-            this._sceneDescription =    "Floating in the void, you hear muffled noises off in the distance. The pain in your head is excrutiating " +
-                                        "and you feel groggy as if you were waking up from a hard night of partying. Slowly you open your eyes. " +
-                                        "Taking the back of your sleeve, you wipe away some crust and look around. It is nearly impossible to see " +
-                                        "anything. Taking in your surroundings you hear the sound of water off in the distance to your left and " +
-                                        "you see a faint light illuminating the ground to your right. It seems you are stuck in some sort of cave " +
-                                        "and you will need to find your way back to the surface.";
+            this._sceneDescription =    "You decide it best to investigate the light. You have high hopes that the light will lead you back to the " +
+                                        "surface. As you approach the source of the light you quickly discern that it is probably coming through a " +
+                                        "crack, high up and deeper into the cave. In front of you lies a rocky wall that looks as if it can be climbed " + 
+                                        "and a narrow tunnel that you may be able to squeeze through. As you move closer to the tunnel you feel warm air " +
+                                        "moving through.";
                                         
-            this._choice1 = "Follow the sound of the water.";
-            this._choice2 = "Head off in the direction of the light.";
+            this._choice1 = "Climb the wall and continue exploring above.";
+            this._choice2 = "Crawl through the tunnel to the other side.";
 
             // Create Label for scene and add to Game Scene container
             this._sceneDescriptionLabel = new createjs.Text(this._sceneDescription, "18px Consolas", "#FFF");
@@ -84,13 +83,13 @@ module scenes {
         // Scene change functions
         private _choice1Click(event : createjs.MouseEvent) {
             // Set global variable to Menu Scene and call changescene function
-            scene = config.Scene.WATER;
+            scene = config.Scene.CLIFF;
             changeScene();
         }
         
         private _choice2Click(event : createjs.MouseEvent) {
             // Set global variable to Menu Scene and call changescene function
-            scene = config.Scene.LIGHT;
+            scene = config.Scene.TUNNEL;
             changeScene();
         }
         

@@ -4,18 +4,16 @@
 */
 
 module scenes {
-    export class Game extends objects.Scene {
+    export class CliffFast extends objects.Scene {
 
         // PRIVATE VARIABLES
         private _sceneDescriptionLabel : createjs.Text;
-        private _choice1Btn : objects.Button;
         private _choice2Btn : objects.Button;
         private _choice1BtnLabel : createjs.Text;
         private _choice2BtnLabel : createjs.Text;
         
         // Scene description and choices
         private _sceneDescription : string;
-        private _choice1 : string;
         private _choice2 : string;
 
         constructor() {
@@ -25,15 +23,14 @@ module scenes {
         // PUBLIC FUNCTIONS
         public start() : void {
             // Assign values to the scene labels
-            this._sceneDescription =    "Floating in the void, you hear muffled noises off in the distance. The pain in your head is excrutiating " +
-                                        "and you feel groggy as if you were waking up from a hard night of partying. Slowly you open your eyes. " +
-                                        "Taking the back of your sleeve, you wipe away some crust and look around. It is nearly impossible to see " +
-                                        "anything. Taking in your surroundings you hear the sound of water off in the distance to your left and " +
-                                        "you see a faint light illuminating the ground to your right. It seems you are stuck in some sort of cave " +
-                                        "and you will need to find your way back to the surface.";
+            this._sceneDescription =    "Not quite sure what you saw, you run towards the light. You have no idea what that was but you know you need to " +
+                                        "get out of here fast. All of a sudden a roaring crash penetrates the air as a winged, scaly beast breaks through " +
+                                        "the wall behind you. Knowing your time is limited you sprint with everything you have for the light. You can hear " +
+                                        "the beast getting closer with each step and then the light gets brighter, way brighter. The whole cave is alight " +
+                                        "with an orange glow and then an unworldy heat consumes you as the dragon's breath races through the hallway consuming " +
+                                        "everything in it's wake. Somehow think that you could have made better choices along the way.";
                                         
-            this._choice1 = "Follow the sound of the water.";
-            this._choice2 = "Head off in the direction of the light.";
+            this._choice2 = "Play again";
 
             // Create Label for scene and add to Game Scene container
             this._sceneDescriptionLabel = new createjs.Text(this._sceneDescription, "18px Consolas", "#FFF");
@@ -43,14 +40,6 @@ module scenes {
             this._sceneDescriptionLabel.y = 10;
             this.addChild(this._sceneDescriptionLabel);
 
-            // Create choice buttons
-            this._choice1Btn = new objects.Button("Choice", config.Screen.CENTER_X, config.Screen.CENTER_Y + 80);
-            this._choice1Btn.regX = 315;
-            this._choice1Btn.regY = 50;
-            this._choice1Btn.cursor = "pointer";
-            this.addChild(this._choice1Btn);
-            this._choice1Btn.on("click", this._choice1Click, this);
-
             this._choice2Btn = new objects.Button("Choice", config.Screen.CENTER_X, config.Screen.CENTER_Y + 185);
             this._choice2Btn.regX = 315;
             this._choice2Btn.regY = 50;
@@ -59,13 +48,6 @@ module scenes {
             this._choice2Btn.on("click", this._choice2Click, this);
             
             // Create choice button labels
-            this._choice1BtnLabel = new createjs.Text(this._choice1, "22px Consolas", "#FFF");
-            this._choice1BtnLabel.lineWidth = 620;
-            this._choice1BtnLabel.lineHeight = 100;
-            this._choice1BtnLabel.x = 30;
-            this._choice1BtnLabel.y = config.Screen.CENTER_Y + 70;
-            this.addChild(this._choice1BtnLabel);
-            
             this._choice2BtnLabel = new createjs.Text(this._choice2, "22px Consolas", "#FFF");
             this._choice2BtnLabel.lineWidth = 620;
             this._choice2BtnLabel.lineHeight = 100;
@@ -82,15 +64,9 @@ module scenes {
         }
 
         // Scene change functions
-        private _choice1Click(event : createjs.MouseEvent) {
-            // Set global variable to Menu Scene and call changescene function
-            scene = config.Scene.WATER;
-            changeScene();
-        }
-        
         private _choice2Click(event : createjs.MouseEvent) {
             // Set global variable to Menu Scene and call changescene function
-            scene = config.Scene.LIGHT;
+            scene = config.Scene.MENU;
             changeScene();
         }
         
