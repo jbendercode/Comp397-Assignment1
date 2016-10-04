@@ -18,10 +18,10 @@ var scenes;
         PathSlow.prototype.start = function () {
             // Assign values to the scene labels
             this._sceneDescription = "Keeping a level head, you continue on your path carefully while watching the approaching ripples. As the ripples " +
-                "get closer you are able to see through the water with some difficulty. It looks as though the beast causing the  " +
-                "ripples is monstorous, it's black form approaching quicker. All of a sudden the entire cave shakes as the beast " +
+                "get closer, you are able to see through the water with some difficulty. It looks as though the beast causing the  " +
+                "ripples is monstorous, its black form approaching quicker. All of a sudden the entire cave shakes as the beast " +
                 "crashes into the wall just below you. The path begins to fall away under your feet and you begin your descent  " +
-                "into the maw of the beast. Somehow think that you could have made better choices along the way.";
+                "into the maw of the beast. Somehow you think that you could have made better choices along the way.";
             this._choice2 = "Play again";
             // Create Label for scene and add to Game Scene container
             this._sceneDescriptionLabel = new createjs.Text(this._sceneDescription, "18px Consolas", "#FFF");

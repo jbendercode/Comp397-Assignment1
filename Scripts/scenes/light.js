@@ -17,8 +17,8 @@ var scenes;
         // PUBLIC FUNCTIONS
         Light.prototype.start = function () {
             // Assign values to the scene labels
-            this._sceneDescription = "You decide it best to investigate the light. You have high hopes that the light will lead you back to the " +
-                "surface. As you approach the source of the light you quickly discern that it is probably coming through a " +
+            this._sceneDescription = "You decide that it's best to investigate the light. You have high hopes that the light will lead you back to the " +
+                "surface. As you approach the source of the light, you quickly discern that it is probably coming through a " +
                 "crack, high up and deeper into the cave. In front of you lies a rocky wall that looks as if it can be climbed " +
                 "and a narrow tunnel that you may be able to squeeze through. As you move closer to the tunnel you feel warm air " +
                 "moving through.";

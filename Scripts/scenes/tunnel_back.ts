@@ -23,9 +23,9 @@ module scenes {
         // PUBLIC FUNCTIONS
         public start() : void {
             // Assign values to the scene labels
-            this._sceneDescription =    "You try to unpin yourself from the chunk of rock holding you down and finally with great effort you pull free. As the " +
-                                        "rock softly thuds against the ground next to you the whole tunnel starts to shake again. In a matter of seconds you " +
-                                        "are buried in the rubble. Somehow think that you could have made better choices along the way.";
+            this._sceneDescription =    "You try to unpin yourself from the chunk of rock holding you down, and finally with great effort, you pull free. As the " +
+                                        "rock softly thuds against the ground next to you, the whole tunnel starts to shake again. In a matter of seconds you " +
+                                        "are buried in the rubble. Somehow you think that you could have made better choices along the way.";
                                         
             this._choice2 = "Play Again";
 

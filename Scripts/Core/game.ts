@@ -17,7 +17,6 @@ var scene: number;
 // Game scenes
 var menuScene : scenes.Menu;
 var gameScene : scenes.Game;
-var gameOverScene: scenes.GameOver;
 
 // Preload Assets required
 var assetData:objects.Asset[] = [

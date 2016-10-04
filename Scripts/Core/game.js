@@ -13,7 +13,6 @@ var scene;
 // Game scenes
 var menuScene;
 var gameScene;
-var gameOverScene;
 // Preload Assets required
 var assetData = [
     { id: "Start", src: "../../Assets/images/Start.png" },

@@ -23,11 +23,11 @@ module scenes {
         // PUBLIC FUNCTIONS
         public start() : void {
             // Assign values to the scene labels
-            this._sceneDescription =    "Not sure what the hell that thing was you start running furiously for the other side. Out of nowhere you hear a " +
-                                        "terrifying howl that booms accross the walls of the caves. Unable to help your curious self, you turn your head " +
+            this._sceneDescription =    "Not sure what the hell that thing was, you start running furiously for the other side. Out of nowhere you hear a " +
+                                        "terrifying howl that booms across the walls of the caves. Unable to help your curious self, you turn your head " +
                                         "around to find the source of the awful sound. As you turn your head you see a glimpse of a jet black tentacle " +
                                         "which is quickly ripped from your vision as you trip over your own feet and smash your head on the ground finding " +
-                                        "only darkness. Somehow think that you could have made better choices along the way.";
+                                        "only darkness. Somehow you think that you could have made better choices along the way.";
                                         
             this._choice2 = "Play again";
 

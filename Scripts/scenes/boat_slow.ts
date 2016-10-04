@@ -26,7 +26,7 @@ module scenes {
             this._sceneDescription =    "You are not quite sure what you saw but you don't want to piss it off or bring any attention to yourself. You pick up " +
                                         "your paddle and quietly place it in your boat until you figure out what to do. While you are sitting there pondering, " +
                                         "jet black tentacles slowly make their way around the edge of your boat. In a split second, your boat is pulled deep " +
-                                        "into the water and into the jaws of a massive beast. Through the garggled sounds of your last dying gasps for air you " +
+                                        "into the water and into the jaws of a massive beast. Through the gargled sounds of your last dying gasps for air, you " +
                                         "somehow think that you could have made better choices along the way.";
                                         
             this._choice2 = "Play again";

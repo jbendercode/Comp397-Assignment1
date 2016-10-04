@@ -23,10 +23,10 @@ module scenes {
         // PUBLIC FUNCTIONS
         public start() : void {
             // Assign values to the scene labels
-            this._sceneDescription =    "You decide that although you have no idea what you saw, that it is probably something that doesn't need seeing. You " +
-                                        "furiosuly paddle the boat, tearing your paddle through the water with all abandon. Looking behind you it seems that " +
+            this._sceneDescription =    "You decide that although you have no idea what you saw, it probably was something that doesn't need seeing. You " +
+                                        "furiously paddle the boat, tearing your paddle through the water with all abandon. Looking behind you, it seems that " +
                                         "you have lost whatever it was and have covered a lot of distance. Craning your head back around to look for the " +
-                                        "shoreline you find yourself face to face with giant teeth dripping a slimy green substance and quickly closing around " +
+                                        "shoreline, you find yourself face to face with giant teeth dripping a slimy green substance. The creature is quickly closing around " +
                                         "you and your boat. Through the crunch of wood and the pain of being impaled by giant slime covered teeth, you somehow " +
                                         "think that you could have made better choices along the way.";
                                         

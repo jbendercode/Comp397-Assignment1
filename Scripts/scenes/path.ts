@@ -25,9 +25,9 @@ module scenes {
         // PUBLIC FUNCTIONS
         public start() : void {
             // Assign values to the scene labels
-            this._sceneDescription =    "Unaware of what may lay under the water and not willing to find out, you decide that the best option is the " +
+            this._sceneDescription =    "Unaware of what may lay under the water, and not willing to find out, you decide that the best option is the " +
                                         "narrow path around the water. As you approach the narrow edge, you place your hand on the wall for a little " +
-                                        "extra grip and begin to slowly make your way accross the path one foot at a time. About halfway accross the " +
+                                        "extra grip and begin to slowly make your way across the path one foot at a time. About halfway across the " +
                                         "path, your heart races as you trip on a small rock. The rock makes a small splash and you manage to catch " +
                                         "your balance before plummeting down into the dark waters. All of a sudden the water ripples and you see " +
                                         "something approaching the path. ";

@@ -19,9 +19,9 @@ var scenes;
             // Assign values to the scene labels
             this._sceneDescription = "Scared of whatever is attached to that eye, you press your back against the wall, as you move into the shadows." +
                 "Standing there, with that eye staring in your direction, you pray to the Gods of every religion you've ever " +
-                "heard of and hope that you remain unseen. You hear a thud, and then another and then the whole cave is shaking. " +
-                "All of a sudden the beast breaks through and it looks pissed. It spreads its scaly wings and starts shooting its " +
-                "fiery in random directions. The stones glow white hot where the fire has touched. Out of nowhere the beast roars " +
+                "heard of and hope that you remain unseen. You hear a thud, and then another, and then the whole cave is shaking. " +
+                "All of a sudden, the beast breaks through and it looks pissed. It spreads its scaly wings and starts shooting its " +
+                "fiery breath in random directions. The stones glow white hot where the fire has touched. Out of nowhere, the beast roars " +
                 "and smashes through the ceiling of the cave, leaving a giant hole in it's wake. Still in shock, you slowly make your " +
                 "way to the massive hole and climb through to the surface. YOU WIN!!!!!!!!!!!!!!!!";
             this._choice2 = "Back to Menu";

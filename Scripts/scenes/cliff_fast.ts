@@ -23,12 +23,12 @@ module scenes {
         // PUBLIC FUNCTIONS
         public start() : void {
             // Assign values to the scene labels
-            this._sceneDescription =    "Not quite sure what you saw, you run towards the light. You have no idea what that was but you know you need to " +
-                                        "get out of here fast. All of a sudden a roaring crash penetrates the air as a winged, scaly beast breaks through " +
-                                        "the wall behind you. Knowing your time is limited you sprint with everything you have for the light. You can hear " +
+            this._sceneDescription =    "Not quite sure of what you saw, you run towards the light. You have no idea what it was, but you know you need to " +
+                                        "get out of here fast. All of a sudden, a roaring crash penetrates the air as a winged, scaly beast breaks through " +
+                                        "the wall behind you. Knowing your time is limited, you sprint with everything you have for the light. You can hear " +
                                         "the beast getting closer with each step and then the light gets brighter, way brighter. The whole cave is alight " +
-                                        "with an orange glow and then an unworldy heat consumes you as the dragon's breath races through the hallway consuming " +
-                                        "everything in it's wake. Somehow think that you could have made better choices along the way.";
+                                        "with an orange glow. An unworldy heat consumes you as the dragon's breath races through the hallway consuming " +
+                                        "everything in its wake. Somehow, you think that you could have made better choices along the way.";
                                         
             this._choice2 = "Play again";
 

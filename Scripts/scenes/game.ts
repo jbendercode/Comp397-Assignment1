@@ -26,10 +26,10 @@ module scenes {
         public start() : void {
             // Assign values to the scene labels
             this._sceneDescription =    "Floating in the void, you hear muffled noises off in the distance. The pain in your head is excrutiating " +
-                                        "and you feel groggy as if you were waking up from a hard night of partying. Slowly you open your eyes. " +
+                                        "and you feel groggy, as if you were waking up from a hard night of partying. Slowly, you open your eyes. " +
                                         "Taking the back of your sleeve, you wipe away some crust and look around. It is nearly impossible to see " +
-                                        "anything. Taking in your surroundings you hear the sound of water off in the distance to your left and " +
-                                        "you see a faint light illuminating the ground to your right. It seems you are stuck in some sort of cave " +
+                                        "anything. Taking in your surroundings, you hear the sound of water off in the distance to your left, and " +
+                                        "you see a faint light illuminating the ground to your right. It seems that you are stuck in some sort of cave " +
                                         "and you will need to find your way back to the surface.";
                                         
             this._choice1 = "Follow the sound of the water.";

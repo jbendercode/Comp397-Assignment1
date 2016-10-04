@@ -26,7 +26,7 @@ module scenes {
         public start() : void {
             // Assign values to the scene labels
             this._sceneDescription =    "You decide to crawl through the narrow tunnel. You think that the warm air is a good sign and might lead you " +
-                                        "to the outside. Geting on your hands and knees you start the crawl through. Although the tunnel is tight you " +
+                                        "to the outside. Getting on your hands and knees, you start the crawl through. Although the tunnel is tight, you " +
                                         "are able to navigate it and move through slowly. Somewhere around the middle of the tunnel you hear a roar off " +
                                         "in the distance and the tunnel starts to shake. A large chunk of rock slides out from the ceiling of the tunnel " +
                                         "just above your lower back and pins you down.";

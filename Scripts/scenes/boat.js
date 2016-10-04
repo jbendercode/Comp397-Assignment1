@@ -19,10 +19,10 @@ var scenes;
             // Add objects to the scene
             console.log("Game scene started");
             // Assign values to the scene labels
-            this._sceneDescription = "You approach the boat. You notice that the oar has a chunk missing from the end of it but that it still " +
-                "looks to be functional. Slowly wading in you push the boat accross the water and hop in. Although the paddle " +
+            this._sceneDescription = "You approach the boat. You notice that the oar has a chunk missing from the end of it, but that it still " +
+                "looks to be functional. Slowly wading in, you push the boat across the water and hop in. Although the paddle " +
                 "is damaged, you manage to build up some speed and begin your journey accross the river. A little more than " +
-                "halfway accross you notice a large ripple in the water and it seems to be moving in your direction.";
+                "halfway across you notice a large ripple in the water and it seems to be moving in your direction.";
             this._choice1 = "Paddle like hell for the other side.";
             this._choice2 = "Stop paddling and let the boat glide silently.";
             // Create Label for scene and add to Game Scene container

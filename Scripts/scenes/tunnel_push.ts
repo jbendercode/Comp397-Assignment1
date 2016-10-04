@@ -23,8 +23,8 @@ module scenes {
         // PUBLIC FUNCTIONS
         public start() : void {
             // Assign values to the scene labels
-            this._sceneDescription =    "With great effort you manage to pull free from the rock pinning you down. As you do the cave shakes and the way that " +
-                                        "you came from is quickly caved-in. With only one direction to move in you make your way down the rest of the tunnel in" +
+            this._sceneDescription =    "With great effort you manage to pull free from the rock pinning you down. As you do, the cave shakes and the way that " +
+                                        "you came from is quickly caved-in. With only one direction to move in, you make your way down the rest of the tunnel in" +
                                         "a slow, ardious crawl. Finally reaching the end of the tunnel, you find yourself in a pitch black room with rocky walls " +
                                         "on every side. You are trapped with no way out and you somehow think that you could have made better choices along the " +
                                         "way.";

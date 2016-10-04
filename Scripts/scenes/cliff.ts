@@ -25,14 +25,14 @@ module scenes {
         // PUBLIC FUNCTIONS
         public start() : void {
             // Assign values to the scene labels
-            this._sceneDescription =    "You decide it best to go up. The light appeared to be coming from that direction and it makes sense that an " +
+            this._sceneDescription =    "You decide that it's best to go up. The light appeared to be coming from that direction, and it makes sense that an " +
                                         "exit would most likely be that way. The rocks provide good footholds and you are able to scale the wall without " +
                                         "any problems. After the climb, you continue on your way towards the source of the light. After a good five " +
-                                        "minutes of walking you hear a low, throaty rumble. Turning your head to the right you see a large yellowish eye " +
+                                        "minutes of walking you hear a low, throaty rumble. Turning your head to the right, you see a large yellowish eye " +
                                         "straining to look in your direction through a crack in the rocky wall.";
                                         
             this._choice1 = "Run for the light and make your escape.";
-            this._choice2 = "Try to avoid it's view.";
+            this._choice2 = "Try to avoid its view.";
 
             // Create Label for scene and add to Game Scene container
             this._sceneDescriptionLabel = new createjs.Text(this._sceneDescription, "18px Consolas", "#FFF");
